@@ -7,7 +7,8 @@ SERVICE="nginx"
 LOG_FILE="/var/log/service_monitor.log"
 
 echo "Checking service status..." >> $LOG_FILE
-
+ls
+pwd
 # Check service status
 systemctl is-active --quiet $SERVICE
 

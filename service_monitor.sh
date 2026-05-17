@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#This script provides the details of the particuler status of the service and we can monitor those services those logs
 # Service Name
 SERVICE="nginx"
 

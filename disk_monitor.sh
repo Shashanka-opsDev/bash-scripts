@@ -20,4 +20,6 @@ else
     echo "$(date) : Disk usage is under control." >> $LOG_FILE
 fi
 
-echo "Monitoring completed." >> $LOG_FILE
+echo "Monitoring completed." >> $LOG_FIL
+
+#The script will be successfull after this we can monitor the disk usage
